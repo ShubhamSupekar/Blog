@@ -1,0 +1,62 @@
+baseURL: ""
+languageCode: en-us
+title: Home
+theme: PaperMod
+disableThemeToggle: true  
+params:
+    profileMode:
+        enabled: true
+        title: "Hi! This is Shubham." # optional default will be site title
+        subtitle: "Welcome to my blog. Here you find a lot of cool information 
+              about lot of cool stuff. I have a passion for solving problems, 
+              building sustainable solutions, and learning  as much as I can about things that interest me. 
+              I’m also excited about talking to people who are interested in coding and productivity.
+              Let's connect on social media"
+        imageUrl: "https://avatars.githubusercontent.com/ShubhamSupekar" # optional
+        imageTitle: "<title of image as alt>" # optional
+        imageWidth: 120 # custom size
+        imageHeight: 120 # custom size
+        buttons:
+          - name: All Post
+            url: /posts/
+          - name: search
+            url: /search/
+    socialIcons:
+    - name: linkedin
+      url: "https://www.linkedin.com/in/shubham-supekar-42106916a/"
+    - name: twitter
+      url: "https://twitter.com/s_supekar_"
+    - name: github
+      url: "https://github.com/ShubhamSupekar"
+
+    cover: 
+      linkFullImages: true
+    
+    ShowBreadCrumbs: true
+
+    ShowShareButtons: true
+
+    ShowPostNavLinks: true
+    
+    ShowReadingTime: true
+    
+    ShowToc: true
+
+    TocOpen: true
+
+    ShowCodeCopyButtons: true
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 30
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 10
