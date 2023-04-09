@@ -1,4 +1,4 @@
-baseURL: ""
+baseURL: "https://ShubhamSupekar.github.io"
 languageCode: en-us
 title: Home
 theme: PaperMod
@@ -6,12 +6,8 @@ disableThemeToggle: true
 params:
     profileMode:
         enabled: true
-        title: "Hi! This is Shubham." # optional default will be site title
-        subtitle: "Welcome to my blog. Here you find a lot of cool information 
-              about lot of cool stuff. I have a passion for solving problems, 
-              building sustainable solutions, and learning  as much as I can about things that interest me. 
-              I’m also excited about talking to people who are interested in coding and productivity.
-              Let's connect on social media"
+        title: "Hi! I'm Shubham." # optional default will be site title
+        subtitle: "GOLANG, DOCKER, MongoDB, PostgreSQL,PRODUCTIVITY, BOOKS"  
         imageUrl: "https://avatars.githubusercontent.com/ShubhamSupekar" # optional
         imageTitle: "<title of image as alt>" # optional
         imageWidth: 120 # custom size
@@ -28,6 +24,8 @@ params:
       url: "https://twitter.com/s_supekar_"
     - name: github
       url: "https://github.com/ShubhamSupekar"
+    - name: email
+      url: "shubham26supekar@gmail.com"
 
     cover: 
       linkFullImages: true
