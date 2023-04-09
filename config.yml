@@ -6,7 +6,7 @@ disableThemeToggle: true
 params:
     profileMode:
         enabled: true
-        title: "Hi! This is Shubham." # optional default will be site title
+        title: "Hi! I'm Shubham." # optional default will be site title
         subtitle: "GOLANG, DOCKER, MongoDB, PostgreSQL,PRODUCTIVITY, BOOKS"  
         imageUrl: "https://avatars.githubusercontent.com/ShubhamSupekar" # optional
         imageTitle: "<title of image as alt>" # optional
@@ -24,6 +24,8 @@ params:
       url: "https://twitter.com/s_supekar_"
     - name: github
       url: "https://github.com/ShubhamSupekar"
+    - name: email
+      url: "shubham26supekar@gmail.com"
 
     cover: 
       linkFullImages: true
